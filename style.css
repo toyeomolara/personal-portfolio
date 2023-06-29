@@ -1,0 +1,119 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&family=Raleway&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#2a2c30;
+}
+  /* Add a black background color to the top navigation */
+.navbar {
+    background-color:  #339470;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    padding-left: 10rem;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: white;
+    color:  #04AA6D;
+  }
+  .container{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.9)), url(image/code-programming-coding-web.jpg);
+    height: 40rem;
+  
+    
+    
+  }
+  .hero{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    background-color: #2a2c30;
+    height: 400px; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+    
+    
+  }
+  hr{
+    color: #339470;
+  }
+
+  
+ 
+  .social{
+    padding: 40px 0;
+    display: inline-flex;
+    max-width: 500px;
+    margin: auto;
+    text-decoration: none;
+    list-style: none;
+    
+    
+ 
+  }
+  
+ a{
+  text-decoration: none;
+  color: white;
+ }
+  .social li{
+    display: inline;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    
+
+  
+  }
+  
+    
+footer {
+  padding-top: 8rem ;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+  
+  
